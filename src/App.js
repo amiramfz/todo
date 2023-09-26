@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./layout/Header";
+import Foter from "./layout/Foter";
+import FirstPage from "./pages/Firstpage";
+import { useState } from 'react';
+import { BrowserRouter, Router, Route, Routes, Link } from "react-router-dom";
+
 
 function App() {
+
+  let [s, sets] = useState(0);
+  function mylang(s) {
+    sets(s);
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Header  mylang={mylang} lan={s} />
+      <Routes>
+        <Route path="/" element={<FirstPage  lan={s}/>} />
+      </Routes>
+      <Foter/>
+     
     </div>
   );
 }

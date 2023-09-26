@@ -1,0 +1,87 @@
+.BigBox{
+    width: 100%;
+    min-height: 50%;
+    margin-top: 3%;
+}
+.SBox{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+.AddBox{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    align-items: center;
+}
+.TopPart{
+    display: flex;
+    direction: rtl;
+}
+.radif{
+width: 8%;
+text-align: center;
+height: 25px;
+}
+.mozo{
+    width: 13%;
+text-align: center;
+height: 25px;
+
+
+
+}
+.tozih{
+    width: 70%;
+text-align: center;
+height: 25px;
+
+}
+.done{
+    width: 9%;
+    text-align: center;
+height: 25px;
+}
+.done{
+    width: 9%;
+    text-align: center;
+height: 15px;
+accent-color: #dc4b4b;
+}
+
+
+.butt{
+    width: 5%;
+    height: 22px;
+    background-color: white;
+    border: none;
+    font-size: 97%;
+    font-weight: 600;
+    color: #dc5454;
+    text-shadow: 0px 0px 7px #d0d0d0;
+    cursor: pointer;
+}
+input{
+    direction: rtl;
+    padding: 0.5%;
+    border: none;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+}
+
+::placeholder{
+    direction: rtl;
+    color: #dc5454;
+    visibility: 1;
+    font-size: 97%;
+    font-weight: 600;
+    
+
+}
+.itembox{
+    direction: rtl;
+    display: flex;
+}

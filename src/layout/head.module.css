@@ -1,0 +1,33 @@
+.HeadBox{
+    background-color: rgb(126, 126, 126);
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+}
+.image{
+    height: 112%;
+}
+.butt{
+    background-color: #f5deb300;
+    border: none;
+    color: white;
+    font-size: 102%;
+    font-weight: 800;
+    text-shadow: 2px 2px 9px black;
+    cursor: pointer;
+    width: 7%;
+}
+.butt2{
+    background-color: #f5deb300;
+    border: none;
+    color: white;
+    font-size: 102%;
+    font-weight: 800;
+    text-shadow: 2px 2px 9px black;
+    cursor: pointer;
+    width: 7%;
+}
+
