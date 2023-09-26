@@ -12,12 +12,17 @@ function App() {
     sets(s);
   }
 
+  let [j, setj] = useState(0);
+  function witch(j) {
+    setj(j);
+  }
+
 
   return (
     <div >
-      <Header  mylang={mylang} lan={s} />
+      <Header witch={witch}  mylang={mylang} lan={s} />
       <Routes>
-        <Route path="/" element={<FirstPage  lan={s}/>} />
+        <Route path="/" element={<FirstPage sw={j} lan={s}/>} />
       </Routes>
       <Foter/>
      

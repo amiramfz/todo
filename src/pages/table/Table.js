@@ -4,7 +4,7 @@ import table from "./table.module.css";
 
 function Table(props) {
   let s = props.lan;
-  console.log(s);
+ 
   let numb = 0;
   let [title , settitle]= useState()
   let [body , setbody]= useState()

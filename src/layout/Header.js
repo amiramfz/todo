@@ -7,7 +7,7 @@ import index from "../index.module.css";
 function Header(props) {
 
   let [s, sets] = useState(1)
-  let [j,setj]=useState(0)
+  let [j,setj]=useState(1)
 
 
 
@@ -21,10 +21,13 @@ function Header(props) {
  }
 
  function BoxChanger() {
-  if (s==0)
+  if (j==0)
   setj(1)
   else
   setj(0)
+
+  props.witch(j)
+
  }
 
 

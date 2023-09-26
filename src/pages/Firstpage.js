@@ -6,7 +6,8 @@ import Table from "./table/Table";
 
 function FirstPage(props) {
     let s = props.lan
-    let j = 0
+    let j = props.sw
+    console.log(j);
 
     if (j==1){
 

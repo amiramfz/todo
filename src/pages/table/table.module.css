@@ -85,3 +85,14 @@ input{
     direction: rtl;
     display: flex;
 }
+
+.CloB{
+width: 50%;
+margin: auto;
+font-size: 537%;
+text-align: center;
+margin-top: 5%;
+color: #dc4b4b;
+font-weight: 700;
+text-shadow: -6px 4px 4px black;
+}
